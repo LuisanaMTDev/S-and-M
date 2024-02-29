@@ -1,3 +1,4 @@
+/*HEADER CSS*/
 header{
     display: flex;
     flex-flow: row wrap;
@@ -48,3 +49,8 @@ header{
 .utilities-nav ul li{
     list-style: none;
 }
+
+/*MAIN CSS*/
+
+
+/*FOOTER CSS*/
