@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    flex-flow: row wrap;
+    margin-inline: 1em;
+    justify-content: flex-end;
+    gap: 1em;
+    align-items: center;
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 32em;
+}
+
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li{
+    list-style: none;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.search-box{
+    font-size: 16px;
+    height: 1.5em;
+    width: 20em;
+}
+
+.utilities-nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.utilities-nav ul li{
+    list-style: none;
+}
