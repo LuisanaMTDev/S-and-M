@@ -1,17 +1,21 @@
+html{
+    font-family: 'Lucida Sans Unicode'; 
+}
+
 /*HEADER CSS*/
 header{
     display: flex;
     flex-flow: row wrap;
     margin-inline: 1em;
     justify-content: flex-end;
-    gap: 1em;
+    gap: 0;
     align-items: center;
 }
 
 .main-nav{
     display: flex;
     flex-direction: row;
-    margin-right: 14em;
+    margin-right: 13em;
 }
 
 .main-nav ul{
@@ -36,6 +40,7 @@ header{
     font-size: 16px;
     height: 1.5em;
     width: 20em;
+    margin-right: 1em;
 }
 
 .utilities-nav ul{
