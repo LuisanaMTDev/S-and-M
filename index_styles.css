@@ -6,23 +6,21 @@ html{
 header{
     display: flex;
     flex-flow: row wrap;
-    margin-inline: 1em;
-    justify-content: flex-end;
-    gap: 0;
+    justify-content: center;
+    gap: 14.7em;
     align-items: center;
 }
 
 .main-nav{
     display: flex;
     flex-direction: row;
-    margin-right: 13em;
 }
 
 .main-nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 8em;
+    gap: 7em;
     padding: 0;
     margin: 0;
 }
@@ -36,11 +34,17 @@ header{
     color: black;
 }
 
-.search-box{
+.utilities-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.utilities-nav .search-box{
     font-size: 16px;
     height: 1.5em;
     width: 20em;
-    margin-right: 1em;
 }
 
 .utilities-nav ul{
