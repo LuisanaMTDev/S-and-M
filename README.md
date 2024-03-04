@@ -8,6 +8,7 @@ I'am using this project to practice my knowledge on fundamental web technologies
 ## Used tools ##
 - [SVGs optimizer](https://jakearchibald.github.io/svgomg/)
 - [Images optimizer](https://squoosh.app/)
+
     > I recommend you to use .webp format, it's a image format made for web sites.
 
 ## Steps for contributing ##
