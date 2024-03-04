@@ -114,8 +114,13 @@ section .promo{
     grid-column: span 2;
 }
 
+section .promo h2{
+    padding-inline: 2em;
+}
+
 /*FOOTER CSS*/
 footer p{
     text-align: center;
+    font-size: 0.9em;
     margin: 0;
 }
