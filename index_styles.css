@@ -11,7 +11,7 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 11em;
+    gap: 15em;
     align-items: center;
 }
 
@@ -52,6 +52,7 @@ header{
     width: 16.5em;
     border-radius: 10px;
     border: 0;
+    background-color: #f0f0f0;
     text-align: center;
     padding-inline: 10px;
 }
@@ -87,6 +88,10 @@ main section{
 }
 
 .products, .promo_and_offer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: auto;
 }
@@ -96,8 +101,13 @@ main section{
     height: auto;
 }
 
+section .promo .image {
+    width: 50em;
+    height: auto;
+}
+
 section .promo{
-    grid-column: span 1;
+    grid-column: span 2;
 }
 
 /*FOOTER CSS*/
