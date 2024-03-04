@@ -69,6 +69,10 @@ header{
     list-style: none;
 }
 
+.utilities-nav ul li a img{
+    filter: invert(50%) sepia(2%) saturate(0%) hue-rotate(299deg) brightness(102%) contrast(91%);
+}
+
 /*MAIN CSS*/
 main{
     display: flex;
