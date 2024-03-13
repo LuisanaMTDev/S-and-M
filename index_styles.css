@@ -100,21 +100,30 @@ main section{
     height: auto;
 }
 
-.products .image, .promo_and_offer .image{
+.image{
     width: 24em;
     height: auto;
+    border-radius: 10px;
 }
 
-section .promo .image {
+.product_price{
+    margin-top: 0;
+}
+
+.product_price span{
+    font-weight: bold;
+}
+
+.promo .image {
     width: 50em;
     height: auto;
 }
 
-section .promo{
+.promo{
     grid-column: span 2;
 }
 
-section .promo h2{
+.promo h2{
     padding-inline: 2em;
 }
 
